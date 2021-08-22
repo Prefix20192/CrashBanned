@@ -43,7 +43,7 @@ QueryClientConVar(client, "xbox_throttlespoof, sv_logecho", ClientConVar);
 В случае бана будет в cfg читера вписанны команды (xbox_throttlespoof 20, sv_logecho 228)
 KvSetString(Kv, "cmd", "xbox_throttlespoof 201;sv_logecho 228;retry;");
 
-В случае разбана у читера будут стондартные команды которые у него были(xbox_throttlespoof 200;sv_logecho 227;)
+В случае разбана у читера будут стандартные команды которые у него были(xbox_throttlespoof 200;sv_logecho 227;)
 
 KvSetString(Kv, "cmd", "xbox_throttlespoof 200;");
 
